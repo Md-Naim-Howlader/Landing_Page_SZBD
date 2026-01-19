@@ -1,0 +1,235 @@
+/* Default or replace styels start */
+.btn-warning {
+  background-color: #ff5d00;
+  color: #fff;
+  border-color: #ff5d00;
+  font-size: 17px;
+}
+.text-warning {
+  color: #ff5d00 !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  -webkit-text-fill-color: #000; /* text color */
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Hover */
+.btn-warning:hover {
+  background-color: #e65300;
+  border-color: #e65300;
+  color: #fff;
+}
+.carousel-control-next {
+  right: 248px !important;
+}
+
+/* Focus */
+.btn-warning:focus,
+.btn-warning:focus-visible {
+  background-color: #e65300 !important;
+  border-color: #e65300;
+  box-shadow: 0 0 0 0.2rem rgba(255, 93, 0, 0.5);
+  color: #fff !important;
+}
+
+/* Active */
+.btn-warning:active,
+.btn-warning.active,
+.show > .btn-warning.dropdown-toggle {
+  background-color: #cc4a00 !important;
+  border-color: #cc4a00;
+  color: #fff !important;
+}
+.bg-warning {
+  background-color: #ff5d00 !important;
+  color: #fff;
+}
+/* End default and replace styles */
+.title-section .title {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #ff5d00;
+}
+/* main product */
+.main-product .container {
+  margin: 0 auto;
+}
+.main-img {
+  background-color: #ff5d00;
+}
+/* main product */
+
+section.product-info .product-features {
+  line-height: 30px;
+}
+section.why-choose-product .choose-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px 10px;
+}
+.custom-carousel .item {
+  background: #ddd;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-size: 18px;
+}
+
+/* Active center item */
+.custom-carousel .owl-item.center .item {
+  background: #ff5d00;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* Nav buttons */
+.custom-carousel .owl-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.custom-carousel .owl-prev-btn,
+.custom-carousel .owl-next-btn {
+  background: #ff5d00;
+  color: #fff;
+  padding: 10px 18px;
+  margin: 0 5px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.order-form-checkout-summary .form-floating label {
+  color: #ff5d00;
+  font-size: 17px;
+}
+label {
+  color: #ff5d00;
+  font-size: 17px;
+  cursor: pointer;
+}
+.form-floating > .form-control,
+.form-floating > .form-control-plaintext {
+  padding: 1rem 0.75rem;
+  border-color: #ff5d00;
+}
+.form-control:focus {
+  color: #ff5d00;
+  border-color: #e65300;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(255, 93, 0, 0.25);
+}
+.form-check-input {
+  cursor: pointer;
+}
+.form-check-input:checked {
+  background-color: #ff5d00 !important;
+  border-color: #ff5d00 !important;
+  box-shadow: 0 0 0 0.25rem rgba(255, 93, 0, 0.25);
+}
+.form-check-input:focus {
+  border-color: #ff5d00;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(255, 93, 0, 0.25);
+}
+
+* {
+  font-family: "SolaimanLipi", sans-serif;
+}
+
+/* Remove default button style */
+.custom-carousel .owl-nav button {
+  outline: none;
+}
+
+/* down arrow up-down style */
+.arrow-container {
+  width: 50px;
+  height: 92px;
+  display: inline-block;
+  animation: bounce 1.5s infinite;
+}
+
+.arrow-container svg {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(10px);
+    opacity: 0.8;
+  }
+}
+
+.order-form-checkout-summary .card {
+  box-shadow:
+    rgba(0, 0, 0, 0.16) 0px 3px 6px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.incDecBtn {
+  height: 30px;
+  width: 30px;
+}
+.checkout-item {
+  border-bottom: 2px dotted #dddd;
+}
+.review-item {
+  min-height: 200px;
+  background-color: #fff;
+  color: #111;
+}
+.carousel-img {
+  height: 500px;
+  max-width: 100%;
+}
+
+.owl-carousel .owl-nav button {
+  background-color: #ff5d00 !important;
+  color: #fff !important;
+  padding: 20px !important;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  position: absolute;
+  top: 40%;
+}
+.owl-carousel .owl-nav button.owl-next {
+  right: -35px;
+}
+.owl-carousel .owl-nav button.owl-prev {
+  left: -35px;
+}
+/* Responsive */
+@media (max-width: 992px) {
+  .carousel-img {
+    height: auto;
+  }
+  .carousel-control-next {
+    right: 0 !important;
+  }
+  .owl-carousel .owl-nav button.owl-prev {
+    left: 120px;
+    top: 100%;
+    margin-top: 10px;
+  }
+  .owl-carousel .owl-nav button.owl-next {
+    right: 120px;
+    top: 100%;
+    margin-top: 10px;
+  }
+}
