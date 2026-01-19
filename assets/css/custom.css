@@ -214,6 +214,9 @@ label {
 .owl-carousel .owl-nav button.owl-prev {
   left: -35px;
 }
+.why-choose-product .card-body {
+  font-size: 18px;
+}
 /* Responsive */
 @media (max-width: 992px) {
   .carousel-img {
